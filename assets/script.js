@@ -42,25 +42,29 @@ async function loadProfile() {
   const tl = document.getElementById('timeline');
   data.experience.forEach(exp => {
     const li = document.createElement('li');
-    li.innerHTML = `<strong style="color:#e2e8f0">${exp.title}</strong> – ${exp.company} <span style="color:#94a3b8">(${exp.date_range})</span><br/><span style="color:#9fb3c8">${exp.location}</span><ul style="margin:6px 0 0 16px;color:#cbd5e1">${exp.highlights.map(h=>`<li>${h}</li>`).join('')}</ul>`;
+    li.innerHTML = `<strong style="color:#e6edf3">${exp.title}</strong> – ${exp.company} <span style="color:#94a3b8">(${exp.date_range})</span><br/><span style="color:#9fb3c8">${exp.location}</span><ul style="margin:6px 0 0 16px;color:#cbd5e1">${exp.highlights.map(h=>`<li>${h}</li>`).join('')}</ul>`;
     tl.appendChild(li);
   });
 
-  // Radar chart (aggregate a simple score across three groups)
-  const radarCtx = document.getElementById('skillsRadar');
+  // Skills bar chart (horizontal)
+  const barCtx = document.getElementById('skillsBar');
   const labels = Object.keys(data.core_competencies);
   const values = labels.map(k => Math.min(10, (data.core_competencies[k] || []).length + 5)); // simple heuristic
-  if (window.Chart && radarCtx) {
-    new Chart(radarCtx, {
-      type: 'radar',
+  if (window.Chart && barCtx) {
+    new Chart(barCtx, {
+      type: 'bar',
       data: {
         labels,
-        datasets: [{ label: 'Competency breadth', data: values, fill: true }]
+        datasets: [{ label: 'Competency breadth', data: values, borderWidth: 1 }]
       },
       options: {
+        indexAxis: 'y',
         responsive: true,
-        scales: { r: { suggestedMin: 0, suggestedMax: 10 } },
-        plugins: { legend: { display: false } }
+        scales: {
+          x: { suggestedMin: 0, suggestedMax: 10, grid: { display: false } },
+          y: { grid: { display: false } }
+        },
+        plugins: { legend: { display: false }, tooltip: { enabled: true } }
       }
     });
   }
