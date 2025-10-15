@@ -1,24 +1,18 @@
-# Ram Charala — Portfolio (Static Site)
+# Ram Charala — Portfolio (v3)
 
-A lightweight, single‑page dashboard + use‑cases site you can host on **GitHub Pages**.
+This version adds:
+- **Case Studies** with challenges, impact, and best practices
+- **Playbook** page with reusable principles and checklists
+- **Artifacts** gallery (PRDs, JTBD, roadmaps, dashboards)
+- Filter/search on case studies
+- Skills bar chart replacing radar, and a modern charcoal theme
 
-## Quick start
-
-1. Create a new public GitHub repo (e.g., `ramc-portfolio`).
-2. Upload all files in this folder to the repo root (or push via git).
-3. In **Settings → Pages**, set **Source** to **Deploy from a branch**, and select the **main** branch and root (`/`). Save.
-4. Your site will be live at: `https://<your-github-username>.github.io/<repo>/`
+## Publish on GitHub Pages
+1. Create a new public repo (e.g., `ramc-portfolio`).
+2. Upload all files to the repo root.
+3. Settings → Pages → Deploy from a branch → `main` + `/`.
 
 ## Customize
-
-- Edit `data/profile.json` to change contact info, stats, skills, timeline, and use‑cases.
-- Update `index.html` copy if desired.
-- Add badges, logos, or screenshots in `assets/` and reference from HTML/JSON.
-
-## Development
-
-No tooling required. Pure HTML/CSS/JS. Chart.js is loaded from a CDN for the skills radar.
-
-## License
-
-MIT — see `LICENSE`.
+- Edit `data/profile.json` (bio, stats, skills)
+- Edit `data/cases.json` (add more case studies)
+- Edit `data/artifacts.json` (link templates or anonymized samples)

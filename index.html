@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Ram Charala • Portfolio</title>
+  <title>Ram Charala • Product Portfolio</title>
   <link rel="stylesheet" href="assets/styles.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
@@ -11,52 +11,59 @@
   <script defer src="assets/script.js"></script>
 </head>
 <body>
-  <header class="shell">
-    <div class="hero">
-      <div>
-        <h1 id="name">Ram Charala</h1>
-        <p class="headline" id="headline">Technical Product Owner / Business Analyst</p>
-        <p class="tagline" id="tagline"></p>
-        <div class="meta" id="meta"></div>
-        <div class="links" id="links"></div>
-      </div>
-      <a class="cta" href="use-cases.html">View Use‑Cases →</a>
+<header class="shell">
+  <div class="hero">
+    <div>
+      <h1 id="name">Ram Charala</h1>
+      <p class="headline" id="headline">Technical Product Owner / Business Analyst</p>
+      <p class="tagline" id="tagline"></p>
+      <div class="meta" id="meta"></div>
+      <div class="links" id="links"></div>
     </div>
-  </header>
+    <nav class="nav">
+      <a href="cases.html">Case Studies</a>
+      <a href="playbook.html">Playbook</a>
+      <a href="artifacts.html">Artifacts</a>
+    </nav>
+  </div>
+</header>
 
-  <main class="shell">
-    <section>
-      <h2>Highlights</h2>
-      <div class="cards" id="stats"></div>
-    </section>
+<main class="shell">
+  <section>
+    <h2>Highlights</h2>
+    <div class="cards" id="stats"></div>
+  </section>
 
-    <section>
-      <h2>Skills Dashboard</h2>
-      <div class="skills-grid">
-        <div class="panel">
-          <h3>Core Competencies</h3>
-          <div id="competencies"></div>
-        </div>
-        <div class="panel">
-          <h3>Skills Radar</h3>
-          <canvas id="skillsRadar" width="400" height="400" aria-label="Skills Radar"></canvas>
-        </div>
+  <section>
+    <h2>Skills Dashboard</h2>
+    <div class="skills-grid">
+      <div class="panel">
+        <h3>Skills Overview</h3>
+        <div id="competencies"></div>
       </div>
-      <details class="tools">
-        <summary>Tools & Platforms</summary>
-        <ul id="tools"></ul>
-      </details>
-    </section>
+      <div class="panel">
+        <h3>Competency Bar Chart</h3>
+        <div style="height:360px"><canvas id="skillsBar" aria-label="Skills Bar"></canvas></div>
+      </div>
+    </div>
+    <details class="tools">
+      <summary>Tools & Platforms</summary>
+      <ul id="tools"></ul>
+    </details>
+  </section>
 
-    <section>
-      <h2>Experience Timeline</h2>
-      <ol id="timeline" class="timeline"></ol>
-    </section>
-  </main>
+  <section>
+    <h2>Recent Case Studies</h2>
+    <div id="casePreview" class="grid"></div>
+    <div class="cta-row">
+      <a class="cta" href="cases.html">Explore All Case Studies →</a>
+    </div>
+  </section>
+</main>
 
-  <footer class="shell footer">
-    <span>© <span id="year"></span> Ram Charala</span>
-    <span>Built for GitHub Pages</span>
-  </footer>
+<footer class="shell footer">
+  <span>© <span id="year"></span> Ram Charala</span>
+  <span>Built for GitHub Pages</span>
+</footer>
 </body>
 </html>
