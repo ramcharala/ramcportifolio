@@ -1,216 +1,73 @@
 {
   "name": "Ramamurthy (Ram) Charala",
   "headline": "Technical Product Owner / Business Analyst",
-  "tagline": "Turning complex requirements into shipped outcomes across Retail, Public Sector, Travel, FMCG & Airline",
-  "location": "Hounslow, London, UK",
+  "tagline": "I ship reliable products by aligning stakeholders, simplifying systems, and measuring outcomes.",
+  "location": "London, UK",
   "availability": "Open to contract roles (Inside/Outside IR35)",
   "email": "charalaramamurthy@gmail.com",
-  "phone": "07405000635",
   "linkedin": "https://www.linkedin.com/in/your-handle",
   "github": "https://github.com/your-handle",
   "visa": "Indefinite Leave to Remain (ILR)",
-  "languages": [
-    "English",
-    "Telugu",
-    "Hindi",
-    "Tamil"
-  ],
   "years_experience": 16,
-  "industries": [
-    "UK Public Sector",
-    "Retail",
-    "Hospitality",
-    "FMCG",
-    "Travel",
-    "Airline"
-  ],
   "stats": [
     {
       "label": "Years Experience",
       "value": "16+"
     },
     {
-      "label": "POS & Payments Projects",
-      "value": "10+"
+      "label": "Integrations Delivered",
+      "value": "40+"
     },
     {
-      "label": "API Integrations Delivered",
-      "value": "40+"
+      "label": "Branches Impacted",
+      "value": "~11,500"
+    },
+    {
+      "label": "Cross\u2011functional Teams Led",
+      "value": "8+"
     },
     {
       "label": "Stakeholders Managed",
       "value": "50+"
-    },
-    {
-      "label": "Teams Led",
-      "value": "8+"
     }
   ],
   "core_competencies": {
     "Product, BA & Delivery": [
-      "Product Management & Roadmapping",
-      "Backlog (DoR, DoD, BDD user stories)",
+      "Roadmapping & OKRs",
+      "Backlog (DoR/DoD/BDD)",
       "Requirements & Documentation",
-      "Process Modelling (BPMN, UML, As\u2011Is/To\u2011Be)",
-      "PI Planning & RAID Management"
+      "Process Modelling (BPMN/UML)",
+      "PI Planning & RAID Mgmt"
     ],
     "Stakeholder & Leadership": [
-      "Senior Stakeholder Management",
-      "Business Owner Engagement",
-      "Workshops & Buy\u2011in",
-      "Communication & Negotiation",
-      "Onsite/Offshore Collaboration"
+      "Senior Stakeholder Mgmt",
+      "Workshops & Facilitation",
+      "Change Readiness & Training",
+      "Vendor/Partner Coordination",
+      "Risk/Dependency Mgmt"
     ],
     "Data & Technology": [
-      "API Design & Integrations (JSON/XML/HTTP)",
-      "AWS Lambdas & Cloud Integrations",
+      "API Design & Integrations (REST/JSON)",
+      "AWS (incl. Lambdas, Amazon Connect)",
       "Data Dashboards (Datadog, Tableau, Power BI)",
-      "Dynamics365, JIRA, Confluence",
+      "Dynamics 365",
       "POS, Payments & Peripherals"
     ]
   },
   "tools": [
-    "JIRA",
+    "Jira",
     "Confluence",
-    "GitHub",
     "Figma",
-    "Lucid Charts",
-    "Visio",
+    "Lucid",
     "Miro",
+    "Visio",
+    "Postman",
+    "Swagger/OpenAPI",
+    "GitHub",
     "Datadog",
     "Tableau",
     "Power BI",
-    "POSTMAN",
-    "SwaggerHub",
-    "AWS",
-    "Quality Centre",
-    "TFS",
-    "InVision",
-    "Zeplin",
-    "SQL (MSSQL/DB2/SQLite)"
-  ],
-  "experience": [
-    {
-      "title": "Technical Product Owner",
-      "company": "Post Office Ltd",
-      "location": "Remote with frequent travel",
-      "date_range": "Oct 2021 \u2013 Feb 2025",
-      "highlights": [
-        "Designed and implemented a journey management system replacing legacy POS across ~11,500 branches adhering to GDS standards.",
-        "Defined API requests/responses integrating POS devices, peripherals, payments and third\u2011party interfaces.",
-        "Set product vision/roadmap, MVP definition; drove discovery, backlog refinement, demos and KPI tracking (navigation & transaction time).",
-        "Delivered an AWS Operations Management Portal, eliminating manual processes and enabling secure device/user auth; built Datadog dashboards.",
-        "Managed non\u2011functional requirements (security, access, performance, alerting) and coordinated multi\u2011disciplinary deployments."
-      ]
-    },
-    {
-      "title": "Product Owner",
-      "company": "Cazoo Limited",
-      "location": "Remote",
-      "date_range": "Jun 2021 \u2013 Sep 2021",
-      "highlights": [
-        "Digitised critical operational processes within a Dynamics365 CRM transformation.",
-        "Automated logistics workflows, improving operational efficiency; documented As\u2011Is/To\u2011Be and service dependencies.",
-        "Defined Power BI dashboards for monitoring operational processes."
-      ]
-    },
-    {
-      "title": "Product Owner",
-      "company": "Infotree Consulting (Healthcare eCommerce)",
-      "location": "Remote",
-      "date_range": "May 2020 \u2013 May 2021",
-      "highlights": [
-        "Defined customer journeys, promotions, and payments; produced UX artifacts and BDD user stories.",
-        "Maintained product backlog, led refinement and sprint ceremonies with SMEs and engineering."
-      ]
-    },
-    {
-      "title": "Business Analyst",
-      "company": "Collinson Group",
-      "location": "Haywards Heath",
-      "date_range": "Jan 2019 \u2013 Apr 2020",
-      "highlights": [
-        "Requirements for a B2B SaaS check\u2011in app across 1,600 lounges / 600 airports, improving lounge transactions/sales by ~25%.",
-        "Specified APIs, device/peripheral integrations and non\u2011functional requirements; authored Gherkin/BDD stories.",
-        "Defined KPIs and Tableau dashboards; conducted gap/root\u2011cause analyses and supported testing/UAT."
-      ]
-    },
-    {
-      "title": "Business Analyst",
-      "company": "Guestlogix Inc.",
-      "location": "Bracknell",
-      "date_range": "Feb 2015 \u2013 Dec 2018",
-      "highlights": [
-        "Managed product roadmaps for flight\u2011attendant apps, mobile POS (iOS) and back\u2011office SaaS for airline clients.",
-        "Ran beta/pilot/MVP with iterative delivery; coordinated onsite/offshore teams and stakeholders.",
-        "Delivered Power BI dashboards; used SQL for data flows analysis."
-      ]
-    },
-    {
-      "title": "Business Analyst",
-      "company": "Marks and Spencer Plc (via TCS) \u2013 London",
-      "location": "London",
-      "date_range": "Jul 2010 \u2013 Jan 2015",
-      "highlights": [
-        "Delivered Mobile POS, Contactless PED rollout, Loyalty integration and Store POS transformation.",
-        "Defined use cases, activity diagrams; integrated payment and stock systems; CRM/Tax\u2011free promos.",
-        "Maintained RTM; conducted training for store and support teams."
-      ]
-    },
-    {
-      "title": "Business Analyst / Developer",
-      "company": "Marks and Spencer Plc (via TCS) \u2013 Chennai",
-      "location": "Chennai",
-      "date_range": "Dec 2008 \u2013 Jun 2010",
-      "highlights": [
-        "Captured functional requirements for sales data migration (mainframe to DB2).",
-        "Developed mainframe applications; analysed HR interface design gaps."
-      ]
-    }
-  ],
-  "use_cases": [
-    {
-      "title": "Nationwide POS Journey Management \u2013 Post Office",
-      "context": "Legacy POS replacement across ~11,500 branches under GDS standards.",
-      "problem": "Fragmented flows, high transaction time, complex device/peripheral integrations.",
-      "actions": [
-        "Defined REST/JSON contracts, error taxonomies and versioning; introduced contract testing.",
-        "Drove roadmap/MVP, discovery to refine KPIs (nav time, transaction time).",
-        "Aligned multi\u2011vendor squads; planned phased deployments with DevOps."
-      ],
-      "result": "Reduced integration defects; accelerated releases; improved counter staff throughput and user experience."
-    },
-    {
-      "title": "Ops Management Portal on AWS \u2013 Post Office",
-      "context": "Manual operational processes and disparate tools.",
-      "problem": "Operational inefficiency and poor visibility of device/user auth.",
-      "actions": [
-        "Designed portal architecture; integrated secure authentication/authorization.",
-        "Built Datadog dashboards with real\u2011time metrics and alerts.",
-        "Delivered training and user guides for Ops/Support."
-      ],
-      "result": "Eliminated manual steps; ~200% efficiency improvement; faster incident response."
-    },
-    {
-      "title": "B2B Lounge Check\u2011in SaaS \u2013 Collinson",
-      "context": "Global lounge operations needed a modern, scalable check\u2011in experience.",
-      "problem": "Legacy systems, limited data visibility, payment/peripheral complexity.",
-      "actions": [
-        "Captured requirements and NFRs; defined API/Device/Payment integrations.",
-        "Authored BDD stories; defined KPIs and dashboards.",
-        "Supported end\u2011to\u2011end testing and UAT."
-      ],
-      "result": "~25% uplift in lounge transactions/sales; improved CX and operational reporting."
-    },
-    {
-      "title": "Mobile POS & Payments \u2013 M&S",
-      "context": "Multiple in\u2011store initiatives (Mobile POS, contactless PED, loyalty, transformation).",
-      "problem": "Complex in\u2011store flows and integrations across payments, stock and promotions.",
-      "actions": [
-        "Gathered requirements; produced use cases/activity diagrams and RTMs.",
-        "Coordinated payment/stock/CRM integrations and stakeholder training."
-      ],
-      "result": "Successful rollouts; reduced checkout friction; consistent compliance and traceability."
-    }
+    "SQL",
+    "AWS"
   ]
 }

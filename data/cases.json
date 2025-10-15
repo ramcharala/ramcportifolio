@@ -1,0 +1,157 @@
+[
+  {
+    "id": "16ae1688-5a42-4719-8574-f8eca3a49422",
+    "title": "Nationwide POS Journey Management (GDS\u2011aligned)",
+    "company": "Post Office Ltd",
+    "period": "2021\u20132025",
+    "domain": [
+      "Public Sector",
+      "Retail",
+      "POS",
+      "Payments",
+      "Ops"
+    ],
+    "context": "Replace legacy POS journeys across ~11,500 branches with a modern, accessible system under GDS standards.",
+    "problem": "Fragmented flows, complex device/peripheral integration, high transaction time, inconsistent error handling.",
+    "actions": [
+      "Defined REST/JSON contracts, versioning strategy, error taxonomy; introduced contract testing.",
+      "Owned roadmap & MVP; structured epics around measurable OKRs (navigation time, transaction duration).",
+      "Ran weekly vendor alignment; mapped E2E flows to remove retries and redundant transformations."
+    ],
+    "impact": [
+      "Reduced integration defects sprint\u2011over\u2011sprint; accelerated release cadence.",
+      "Improved counter\u2011staff throughput and UX; faster navigation and transactions."
+    ],
+    "challenges": [
+      "Aligning multiple vendors with different SDLCs and definitions of done.",
+      "Balancing performance on low\u2011spec devices with accessibility requirements."
+    ],
+    "best_practices": [
+      "Treat APIs as products: publish schema + changelog, deprecate predictably.",
+      "Adopt consumer\u2011driven contract tests to keep integrations honest.",
+      "Define 3\u20135 business KPIs and instrument them from day one."
+    ]
+  },
+  {
+    "id": "47f63694-9baf-4174-b67c-5e6006f9ab46",
+    "title": "AWS Operations Management Portal",
+    "company": "Post Office Ltd",
+    "period": "2022\u20132024",
+    "domain": [
+      "AWS",
+      "Operations",
+      "Dashboards"
+    ],
+    "context": "Manual operations and disjointed tools slowed incident response and device/user management.",
+    "problem": "No unified view of device health, authentication, or alerts across the estate.",
+    "actions": [
+      "Designed an ops portal integrating secure authN/Z and device/user management.",
+      "Built Datadog dashboards for health, latency, and error budgets; set alert policies.",
+      "Delivered training and runbooks; phased rollout with feedback loops."
+    ],
+    "impact": [
+      "Eliminated manual steps; materially faster incident triage and response.",
+      "Greater operational visibility; fewer repeated tickets."
+    ],
+    "challenges": [
+      "Defining least\u2011privilege roles across multiple user groups.",
+      "Normalizing metrics from heterogeneous services."
+    ],
+    "best_practices": [
+      "Define SLOs/SLIs per capability and wire alerts to ownership.",
+      "Create gold\u2011standard runbooks with embedded links to dashboards.",
+      "Ship thin slices to operations and iterate with real usage data."
+    ]
+  },
+  {
+    "id": "500238d7-0b41-480d-a5d8-850341411c9c",
+    "title": "B2B Lounge Check\u2011in SaaS",
+    "company": "Collinson Group",
+    "period": "2019\u20132020",
+    "domain": [
+      "Hospitality",
+      "SaaS",
+      "Payments"
+    ],
+    "context": "Modernize lounge check\u2011in across 1,600 lounges / 600 airports with peripheral and payment integrations.",
+    "problem": "Legacy tools with limited data visibility; complex payment/peripheral stack.",
+    "actions": [
+      "Captured requirements & NFRs; defined API/device/payment integrations.",
+      "Authored BDD stories; defined KPIs and Tableau dashboards.",
+      "Supported end\u2011to\u2011end testing and UAT with airline/partner stakeholders."
+    ],
+    "impact": [
+      "~25% uplift in lounge transactions/sales.",
+      "Improved CX and operational reporting for partners."
+    ],
+    "challenges": [
+      "Coordinating across airport security constraints and legacy systems.",
+      "Ensuring offline\u2011first flows for unreliable connectivity."
+    ],
+    "best_practices": [
+      "Design for degraded networks; queue + reconcile patterns.",
+      "Use feature flags to pilot with select lounges before broad rollout.",
+      "Instrument partner\u2011specific funnels to spot regional friction."
+    ]
+  },
+  {
+    "id": "da3470dc-1de6-4bca-a9f0-f66b0851e629",
+    "title": "Mobile POS, Contactless & Loyalty (Store Transformation)",
+    "company": "Marks & Spencer",
+    "period": "2010\u20132015",
+    "domain": [
+      "Retail",
+      "POS",
+      "Payments",
+      "Loyalty"
+    ],
+    "context": "Deliver new in\u2011store capabilities including mobile POS, contactless PED rollout and loyalty integrations.",
+    "problem": "High checkout friction and fragmented in\u2011store journeys across payments and stock systems.",
+    "actions": [
+      "Gathered requirements; authored use cases/activity diagrams and RTMs.",
+      "Coordinated payment/stock/CRM integrations and stakeholder training.",
+      "Piloted in flagship stores and scaled in controlled waves."
+    ],
+    "impact": [
+      "Reduced checkout friction; improved compliance & traceability.",
+      "Established reusable integration patterns for future initiatives."
+    ],
+    "challenges": [
+      "Synchronizing promos/stock across channels in near\u2011real time.",
+      "Device/peripheral lifecycle management at scale."
+    ],
+    "best_practices": [
+      "Create a store\u2011tech design system for devices/peripherals.",
+      "Plan wave deployments with readiness checklists and rollbacks.",
+      "Close the loop with store staff through embedded feedback widgets."
+    ]
+  },
+  {
+    "id": "6bf307c0-b777-4875-9ef7-fc7cc838dde0",
+    "title": "Ops & CRM Digitization (D365)",
+    "company": "Cazoo",
+    "period": "2021",
+    "domain": [
+      "Automotive",
+      "CRM",
+      "Operations"
+    ],
+    "context": "Digitize critical operational workflows inside Dynamics 365.",
+    "problem": "Manual handoffs and opaque process SLAs.",
+    "actions": [
+      "Mapped as\u2011is/to\u2011be; automated logistics workflows in D365.",
+      "Defined Power BI dashboards for SLA monitoring and bottleneck detection."
+    ],
+    "impact": [
+      "Improved operational efficiency and visibility across teams."
+    ],
+    "challenges": [
+      "Adapting D365 constraints to bespoke processes.",
+      "Change management for frontline teams."
+    ],
+    "best_practices": [
+      "Build a service blueprint linking user steps to back\u2011office systems.",
+      "Instrument SLAs and visualize them where work happens."
+    ]
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "type": "PRD",
+    "title": "POS Journey PRD (Template)",
+    "summary": "Lean PRD emphasizing problem, metrics, scope bounds, risks.",
+    "link": "#"
+  },
+  {
+    "type": "JTBD",
+    "title": "Jobs-to-be-Done for Counter Staff",
+    "summary": "Key jobs, pains, and desired outcomes for high\u2011throughput counters.",
+    "link": "#"
+  },
+  {
+    "type": "Roadmap",
+    "title": "Outcome\u2011based Roadmap (Example)",
+    "summary": "Now/Next/Later with aligned OKRs and guardrails.",
+    "link": "#"
+  },
+  {
+    "type": "Dashboard",
+    "title": "Datadog Ops Health",
+    "summary": "Error budgets, latency SLOs, device health overview.",
+    "link": "#"
+  },
+  {
+    "type": "Testing",
+    "title": "Contract Testing Pack (PACT)",
+    "summary": "Consumer\u2011driven contracts for integrations.",
+    "link": "#"
+  }
+]
