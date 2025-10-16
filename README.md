@@ -1,18 +1,11 @@
-# Ram Charala — Portfolio (v3)
+# Ram Charala — Portfolio (Static Site, v2)
 
-This version adds:
-- **Case Studies** with challenges, impact, and best practices
-- **Playbook** page with reusable principles and checklists
-- **Artifacts** gallery (PRDs, JTBD, roadmaps, dashboards)
-- Filter/search on case studies
-- Skills bar chart replacing radar, and a modern charcoal theme
+- Background color switched to charcoal (#0d1117).
+- Skills Radar replaced with a clean horizontal bar chart.
+- Content editable in `data/profile.json`.
 
 ## Publish on GitHub Pages
-1. Create a new public repo (e.g., `ramc-portfolio`).
-2. Upload all files to the repo root.
+1. Create a new public repo, e.g., `ramc-portfolio`.
+2. Upload all files to the repo root (or push via git).
 3. Settings → Pages → Deploy from a branch → `main` + `/`.
-
-## Customize
-- Edit `data/profile.json` (bio, stats, skills)
-- Edit `data/cases.json` (add more case studies)
-- Edit `data/artifacts.json` (link templates or anonymized samples)
+4. Site will appear at `https://<your-username>.github.io/<repo>/`.
